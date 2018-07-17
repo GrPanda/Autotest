@@ -25,8 +25,8 @@ public class FirstTest {
         searchInput.sendKeys ("погода пенза");
         WebElement loginButton = driver.findElement(By.cssSelector("button"));
         loginButton.click();
-        String a = " a[href='https://yandex.ru/pogoda/penza?from=serp_title'] div[class='organic__url-text']";
-        assertTrue(driver.findElement(By.cssSelector(a)).getText().contains("Пензе"));
+        WebElement a = driver.findElement(By.cssSelector(" a[href='https://yandex.ru/pogoda/penza?from=serp_title'] div[class='organic__url-text']"));
+        assertTrue(a.getText().contains("Пензе"));
     }
     @AfterClass
     public static void end() {
