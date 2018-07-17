@@ -11,7 +11,6 @@ import static org.testng.Assert.assertTrue;
 
 public class FirstTest {
 
-    private static WebDriver driver;
 
     @Test
     public static void yandex() {
