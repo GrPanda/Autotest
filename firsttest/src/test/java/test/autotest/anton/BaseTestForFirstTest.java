@@ -6,7 +6,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import java.util.concurrent.TimeUnit;
 
-public class BaseTest {
+public class BaseTestForFirstTest {
     protected static WebDriver driver;
 
 
@@ -15,11 +15,12 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-            }
+        driver.get("https://www.ya.ru/");
+    }
     @AfterSuite
     public static void end() {
         driver.quit();
-  }
+    }
 
 }
 
