@@ -3,3 +3,14 @@
 [0730/051637.283:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
 [0730/051637.283:ERROR:exception_snapshot_win.cc(88)] thread ID 9528 not found in process
 [0730/051637.283:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0731/003439.369:ERROR:process_info.cc(359)] UncheckedAllocate
+[0731/004231.031:ERROR:process_info.cc(359)] UncheckedAllocate
+[0731/004534.208:ERROR:process_info.cc(359)] UncheckedAllocate
+[0731/004625.627:ERROR:process_info.cc(359)] UncheckedAllocate
+[0731/004723.719:ERROR:process_info.cc(359)] UncheckedAllocate
+[0731/004826.774:ERROR:process_info.cc(359)] UncheckedAllocate
+[0731/010416.080:ERROR:process_info.cc(359)] UncheckedAllocate
+[0731/011126.924:ERROR:process_info.cc(359)] UncheckedAllocate
+[0731/013440.717:ERROR:process_info.cc(359)] UncheckedAllocate
+[0731/013504.951:ERROR:process_info.cc(359)] UncheckedAllocate
+[0731/013617.450:ERROR:process_info.cc(359)] UncheckedAllocate
