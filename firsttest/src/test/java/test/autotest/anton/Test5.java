@@ -2,6 +2,7 @@ package test.autotest.anton;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import test.autotest.anton.Tests.BaseTest;
 import test.autotest.anton.pages.MarketPage;
 import test.autotest.anton.pages.NavigationPage;
 

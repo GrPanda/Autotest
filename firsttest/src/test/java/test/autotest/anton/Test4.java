@@ -1,6 +1,7 @@
 package test.autotest.anton;
 
         import org.testng.annotations.*;
+        import test.autotest.anton.Tests.BaseTest;
         import test.autotest.anton.pages.LocationPage;
         import static org.testng.Assert.assertEquals;
 
