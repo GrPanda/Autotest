@@ -15,7 +15,6 @@ public class NavigationYandexTest extends BaseTest {
         navigationPage = new NavigationPage ( driver );
 
         driver.get ( "https://www.yandex.ru/" );
-        Thread.sleep ( 1000 );
         navigationPage.clickVideoLink ( );
         Assert.assertEquals ( navigationPage.getUrl ( ) , ( "https://yandex.ru/video/" ) );
         Assert.assertTrue ( ( navigationPage.videoLinks.size ( ) ) > 0 );
